@@ -1,0 +1,35 @@
+button, input, label {
+  display: block;
+  outline: none;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input.error, textarea.error {
+  color: red;
+  border-width: 2px;
+  border-color: red;
+}
+
+label.error, span.error {
+  color: red;
+}
+
+.server-error {
+  color: red;
+  background-color: lavenderblush;
+  padding: .3rem;
+}
+
+span.error {
+  display: block;
+  color: red;
+}
+
+button {
+  padding: .2rem 1rem;
+  border: 1px solid black;
+  border-radius: .2rem;
+}
